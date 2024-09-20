@@ -9,6 +9,11 @@ Todos os comandos estão na documentação (link na referência).
 sudo usermod -aG docker $USER
 ```
 
+## Instalar o Docker Scout
+```
+curl -sSfL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh | sh -s --
+```
+
 ## Instalar o Portainer
 ```
 git clone https://github.com/wlcamargo/portainer.git
